@@ -10,6 +10,6 @@ var fs = require("fs");
 
 var key = require("./key");
 
-var spotify = new Spotify(key.spotifyKey);
+var spotify = new Spotify(key.spotify);
 
 var tweets = new twitter(key.twitterkey);
